@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Number Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+ 
+</head>
+<body>
+    <header>
+        <h1>Welcome to Africa Bank</h1>
+    </header>
+    
+    <main>
+        <form method="POST" action="/">
+            <label for="account_type">Choose Account Type:</label>
+            <select name="account_type" id="account_type">
+                <option value="savings">Savings</option>
+                <option value="current">Current</option>
+            </select>
+            <input type="submit" value="GENERATE ACCOUNT NUMBER">
+        </form>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Alx_Africa</p>
+    </footer>
+</body>
+</html>
+

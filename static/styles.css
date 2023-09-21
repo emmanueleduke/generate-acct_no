@@ -1,0 +1,77 @@
+/* Apply styles to the header element */
+header {
+    color: #007BFF; /* Text color */
+    background-color: #007BFF; /* Background color */
+    border-color: #007BFF; /* Border color */
+
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+   color: yellow;
+   background-color: blue;
+  
+}
+/* Style the h1 element within the header */
+header h1 {
+    
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Style the main content area */
+main {
+    padding: 20px;
+    background-color: Orange;
+    color: gray;
+    text-align: center;
+}
+
+/* Style the form */
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Style the label for the select element */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style the select element */
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #28A745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Apply styles to the footer element */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    /* Add styles for smaller screens */
+    header h1 {
+        font-size: 20px;
+    }
+    main {
+        padding: 10px;
+    }
+}
+
